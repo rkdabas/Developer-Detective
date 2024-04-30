@@ -1,0 +1,25 @@
+.profile-info {
+  width: 50%;
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-info a {
+  color: var(--text-color);
+  word-break: break-all;
+}
+
+.profile-info p {
+  word-wrap: break-word;
+}
+
+.bottom-icons {
+  width: 20px;
+  filter: var(--lm-icon-bg);
+}
+
+.bottom-icons img {
+  width: 20px;
+}
